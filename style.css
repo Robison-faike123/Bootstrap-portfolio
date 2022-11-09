@@ -1,8 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 .text-regular {
@@ -11,7 +10,6 @@ body {
 
 header {
   background:#3e3c3c;
-  
 }
 
 header .container-fluid ul {
@@ -49,37 +47,46 @@ header .container-fluid ul li a {
  background-color: #1C1A19;
  height: 850px;
 }
+
 #Portfolio .container {
-  padding-top: 214px;
-width: 710px;
-color: #fff;
+  width: 710px;
+  height: 800px;
+  color: #fff;
 }
+
 .list-icon {
    width: 141px;
-   
-  
+   list-style: none;
 }
+
 .list-icon a {
   color: #cfcfcf;
   text-decoration: none;
-
 }
 
 #Portfolio h1,
- h2 ,
- ul,
-  p {
-margin: 0;
-padding: 0;
+h2,
+ul,
+p {
+  margin: 0;
+  padding: 0;
 }
-#Portfolio h1 { 
-font-family: 'Crete Round';
-font-style: normal;
-font-weight: 400;
-font-size: 72px;
-line-height: 82px;
-color: #F55800;
 
+#Portfolio h1 { 
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #F55800;
+}
+
+#Portfolio h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 
