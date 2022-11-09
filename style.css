@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body {
   margin: 0;
   padding: 0;
@@ -9,6 +11,7 @@ body {
 
 header {
   background:#3e3c3c;
+  
 }
 
 header .container-fluid ul {
@@ -39,6 +42,46 @@ header .container-fluid ul li a {
   margin-right: 8px;
   margin-left: 8px;
 }
+#Portfolio {
+ background-image: url(images/Illustration-header.png);
+ background-position: right;
+ background-repeat: no-repeat;
+ background-color: #1C1A19;
+ height: 850px;
+}
+#Portfolio .container {
+  padding-top: 214px;
+width: 710px;
+color: #fff;
+}
+.list-icon {
+   width: 141px;
+   
+  
+}
+.list-icon a {
+  color: #cfcfcf;
+  text-decoration: none;
+
+}
+
+#Portfolio h1,
+ h2 ,
+ ul,
+  p {
+margin: 0;
+padding: 0;
+}
+#Portfolio h1 { 
+font-family: 'Crete Round';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 82px;
+color: #F55800;
+
+}
+
 
 @media screen and (max-width: 768px) {
   .menu-items {
