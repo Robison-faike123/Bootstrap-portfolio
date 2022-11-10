@@ -5,10 +5,6 @@ body {
   font-style: normal;
 }
 
-.text-regular {
-  
-}
-
 .badge {
   color: #091E42;
   border: 1px solid #8993A4;
@@ -65,8 +61,8 @@ header .container-fluid ul li a {
 }
 
 .list-icon {
-   width: 141px;
-   list-style: none;
+  width: 141px;
+  list-style: none;
 }
 
 .list-icon a {
@@ -174,11 +170,12 @@ p {
   background: linear-gradient(rgb(0,0,0, 0), rgb(0,0,0, 0.7));
 }
 
-.list-project .card .card-img-overlay .badge{
+.list-project .card .card-img-overlay .badge {
   color: white;
   border: none;
   background-color: rgba(255, 255, 255, 0.24);
 }
+
 #About-me {
   background-color: #262626;
   height: 900px;
@@ -189,14 +186,16 @@ p {
   color: #fff;
 
  }
+
 .about-me-title {
- margin-top: 100px;
+  margin-top: 100px;
 }
 
 .container hr {
   margin-top: 200px;
   margin-bottom: 100px;
 }
+
 #About-me .container h1 {
   font-family: 'Crete Round';
   font-style: normal;
@@ -204,12 +203,13 @@ p {
   font-size: 72px;
   line-height: 82px;
   color: #F55800;
-  
 }
+
 .skill2 ul {
   margin-top: 20px;
   margin-left: 50px;
 }
+
 .skill-tittle {
   margin-left: 20px;
 }
@@ -222,12 +222,14 @@ p {
   line-height: 43px;
   font-style: normal;
  }
+
  .skill2 p {
   font-size: 32px;
   font-weight: 700;
   font-family: "Inter",sans-serif;
   line-height: 44px;
  }
+
  .contact-form form input,
  #comment {
   width: 600px;
@@ -236,8 +238,9 @@ p {
   border-left: none;
   border-right: none;
  }
+
  footer .list-icon li a {
-   color: #505f79;
+  color: #505f79;
  }
 
 
