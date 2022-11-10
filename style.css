@@ -179,6 +179,67 @@ p {
   border: none;
   background-color: rgba(255, 255, 255, 0.24);
 }
+#About-me {
+  background-color: #262626;
+  height: 900px;
+  background-image: url(images/aboutme-background\ \(4\).png); 
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+
+ }
+.about-me-title {
+ margin-top: 100px;
+}
+
+.container hr {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+#About-me .container h1 {
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: #F55800;
+  
+}
+.skill2 ul {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.skill-tittle {
+  margin-left: 20px;
+}
+
+.skill2 ul li {
+  list-style: none;
+  font-size: 22px;
+  font-family: 'Inter', Courier, monospace;
+  font-weight: 400;
+  line-height: 43px;
+  font-style: normal;
+ }
+ .skill2 p {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Inter",sans-serif;
+  line-height: 44px;
+ }
+ .contact-form form input,
+ #comment {
+  width: 600px;
+  border-bottom: 1px solid #dbd8d7;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+ }
+ footer .list-icon li a {
+   color: #505f79;
+ }
+
 
 @media screen and (max-width: 768px) {
   .menu-items {
