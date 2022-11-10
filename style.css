@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 .badge {
@@ -251,5 +252,13 @@ p {
 
   .toolbar {
     display: block;
+  }
+
+  #Portfolio {
+    background-image: url(images/Illustration.png);
+  }
+
+  #About-me {
+    background-image: url(images/illustration-about-me-mobile.png);
   }
 }
