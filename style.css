@@ -257,8 +257,17 @@ p {
   #Portfolio {
     background-image: url(images/Illustration.png);
   }
+  
+  #Portfolio .container {
+    width: 100vw;
+  }
 
   #About-me {
     background-image: url(images/illustration-about-me-mobile.png);
+  }
+
+  .contact-form form input,
+  #comment {
+   width: 60vw;
   }
 }
