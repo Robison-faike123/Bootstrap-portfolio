@@ -6,9 +6,17 @@ body {
   overflow-x: hidden;
 }
 
+#Portfolio h1,
+h2,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .badge {
-  color: #091E42;
-  border: 1px solid #8993A4;
+  color: #091e42;
+  border: 1px solid #8993a4;
   border-radius: 0;
   margin-left: 0;
   padding: 8px 12px 8px 12px;
@@ -16,16 +24,36 @@ body {
 
 .btn {
   color: white;
-  background-color: #F55800;
+  background-color: #f55800;
   border-radius: 0;
 }
 
 header {
-  background:#3e3c3c;
+  background: #3e3c3c;
   color: white;
 }
 
-header .container-fluid ul li p{
+.skill2 p {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 44px;
+}
+
+.viewed-work p {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.list-icon a {
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+header .container-fluid ul li p {
   font-weight: 700;
   font-size: 20px;
   line-height: 20px;
@@ -35,6 +63,10 @@ header .container-fluid ul li p{
 .toolbar {
   display: none;
   padding-right: 2.2rem;
+}
+
+footer .list-icon li a {
+  color: #505f79;
 }
 
 header .container-fluid ul li a {
@@ -48,11 +80,11 @@ header .container-fluid ul li a {
 }
 
 #Portfolio {
- background-image: url(images/Illustration-header.png);
- background-position: right;
- background-repeat: no-repeat;
- background-color: #1C1A19;
- height: 850px;
+  background-image: url(images/Illustration-header.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: #1c1a19;
+  height: 850px;
 }
 
 #Portfolio .container {
@@ -66,25 +98,12 @@ header .container-fluid ul li a {
   list-style: none;
 }
 
-.list-icon a {
-  color: #cfcfcf;
-  text-decoration: none;
-}
-
-#Portfolio h1,
-h2,
-ul,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-#Portfolio h1 { 
-  font-family: 'Crete Round';
+#Portfolio h1 {
+  font-family: 'Crete Round', sans-serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 82px;
-  color: #F55800;
+  color: #f55800;
 }
 
 #Portfolio h2 {
@@ -104,7 +123,7 @@ p {
 }
 
 #Projects h2 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -122,19 +141,11 @@ p {
 }
 
 .viewed-work h5 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-}
-
-.viewed-work p {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
 }
 
 .viewed-work .card {
@@ -151,7 +162,7 @@ p {
 .list-project .card img {
   width: 100%;
   height: 435px;
-  background-color: #8993A4;
+  background-color: #8993a4;
   margin: 0;
   padding: 0;
 }
@@ -163,12 +174,12 @@ p {
 }
 
 .list-project .card .card-img-overlay {
-  top:auto;
+  top: auto;
   margin-left: 12px;
   margin-right: 12px;
   border-radius: 0;
   color: white;
-  background: linear-gradient(rgb(0,0,0, 0), rgb(0,0,0, 0.7));
+  background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.7));
 }
 
 .list-project .card .card-img-overlay .badge {
@@ -180,13 +191,12 @@ p {
 #About-me {
   background-color: #262626;
   height: 900px;
-  background-image: url(images/aboutme-background\ \(4\).png); 
+  background-image: url(images/aboutme-background\ \(4\) .png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-
- }
+}
 
 .about-me-title {
   margin-top: 100px;
@@ -198,12 +208,12 @@ p {
 }
 
 #About-me .container h1 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 82px;
-  color: #F55800;
+  color: #f55800;
 }
 
 .skill2 ul {
@@ -222,28 +232,16 @@ p {
   font-weight: 400;
   line-height: 43px;
   font-style: normal;
- }
+}
 
- .skill2 p {
-  font-size: 32px;
-  font-weight: 700;
-  font-family: "Inter",sans-serif;
-  line-height: 44px;
- }
-
- .contact-form form input,
- #comment {
+.contact-form form input,
+#comment {
   width: 600px;
   border-bottom: 1px solid #dbd8d7;
   border-top: none;
   border-left: none;
   border-right: none;
- }
-
- footer .list-icon li a {
-  color: #505f79;
- }
-
+}
 
 @media screen and (max-width: 768px) {
   .menu-items {
@@ -257,7 +255,7 @@ p {
   #Portfolio {
     background-image: url(images/Illustration.png);
   }
-  
+
   #Portfolio .container {
     width: 100vw;
   }
@@ -268,6 +266,6 @@ p {
 
   .contact-form form input,
   #comment {
-   width: 60vw;
+    width: 60vw;
   }
 }
